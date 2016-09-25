@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+	<Runtime>
+	</Runtime>
+
+	<Extension path = "/MonoDevelop/Ide/Commands/View">
+        <Command id = "MonoDevelopElementary.Elementarize"
+                 _label = "Elementarize UI"
+                 _description = "Tweak UI"
+
+                 defaultHandler = "MonoDevelopElementary.UIAdapter" />
+    </Extension>
+
+    <Extension path = "/MonoDevelop/Ide/MainMenu/View">
+        <CommandItem id="MonoDevelopElementary.Elementarize" />
+    </Extension>
+
+	<Extension path="/MonoDevelop/Ide/StartupHandlers">
+		<Class class="MonoDevelopElementary.UIAdapter"/>
+	</Extension>
+</ExtensionModel>
