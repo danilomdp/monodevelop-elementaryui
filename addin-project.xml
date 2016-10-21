@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<AddinProject appVersion="5.10">
+<AddinProject appVersion="5.7">
 	<Project platforms="Linux">
 		<AddinFile>monodevelop-elementary-plugin/bin/Debug/monodevelop-elementary-plugin.dll</AddinFile>
 		<BuildFile>MonoDevelopElementary.sln</BuildFile>
